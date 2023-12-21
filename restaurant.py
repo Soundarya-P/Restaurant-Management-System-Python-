@@ -3,8 +3,8 @@ import random
 import time
 
 root = Tk()
-root.geometry("1600x700+0+0")
-root.resizable(0,0)
+root.geometry("1200x500")
+#root.resizable(0,0)
 root.title("Restaurant Management System")
 
 Tops = Frame(root,bg="white",width = 1600,height=50,relief=SUNKEN)
@@ -243,8 +243,8 @@ btnexit=Button(f1,padx=16,pady=8, bd=10 ,fg="black",font=('ariel' ,16,'bold'),wi
 btnexit.grid(row=7, column=3)
 
 def price():
-    roo = Tk()
-    roo.geometry("600x220+0+0")
+    #roo = Tk()
+    #roo.geometry("600x220+0+0")
     roo.title("Price List")
     lblinfo = Label(roo, font=('aria', 15, 'bold'), text="ITEM", fg="black", bd=5)
     lblinfo.grid(row=0, column=0)
